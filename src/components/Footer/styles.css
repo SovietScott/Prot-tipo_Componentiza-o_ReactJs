@@ -1,0 +1,62 @@
+footer{
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  
+  background-color: rgba(82, 174, 219, 0.60);
+}
+
+.social{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 40px;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.support{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.support li{
+   list-style-type: none;
+   font-weight: bold;
+}
+.support li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.credit{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-right: 10px;
+}
+.credit > img{
+  width: 100px;
+  height: 200px;
+  max-width: 500px;
+  max-height: 100px;
+  cursor: pointer;
+}
+
+
+h1{
+  text-align: center;
+}
+
+a[href="https://github.com/SovietScott"]{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  background-color: rgba(244,244,244,0.5);
+  display: flex;
+  justify-content: center;
+}
+a[href="https://github.com/SovietScott"]:hover{
+  color:  yellow;
+  text-decoration:solid;
+}

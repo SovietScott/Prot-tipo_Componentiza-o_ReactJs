@@ -1,0 +1,44 @@
+.Wrapper{
+  width: 90%;
+  height: 90%;
+  border: 1px black inset;
+  border-radius: 0.50rem;
+  background-color: white;
+  align-self: center;
+  margin-left: 5%;
+}
+.Wrapper > img{
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid black;
+  object-fit: contain;
+}
+.Description{
+  margin-left: 5px;
+  height: 40%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-bottom: 5px;
+}
+.Description  h4{
+  color: purple;
+  font-weight: bolder;
+  align-self: center;
+}
+.Description > span{
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+#button{
+  background-color: black;
+  color: white;
+  height: 10%;
+  width: 90%;
+  margin-left: 5%;
+}
+#button:hover{
+  font-weight: bolder;
+  color: rgb(255, 0, 255);
+}
